@@ -65,4 +65,3 @@ AI helped generate initial project scaffolding and boilerplate code (routes, mod
 
 ## Notes
 - For simplicity, tasks are stored with `userId` as the creator. Students create their own tasks; teachers create their own tasks too. Teachers will see student-created tasks if the student is assigned to them.
-- If you want teacher-created tasks assigned to a particular student, we can add an explicit `assigneeId` field to `Task`.
