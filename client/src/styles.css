@@ -1,0 +1,20 @@
+body { font-family: Arial, Helvetica, sans-serif; background:#f5f5f5; margin:0; padding:0 }
+.container { max-width:900px; margin:30px auto; background:white; padding:20px; border-radius:6px }
+.auth { max-width:400px; margin:20px auto }
+.auth input { display:block; width:100%; margin:8px 0; padding:8px }
+.auth button.link { background:none; border:none; color:blue; text-decoration:underline; cursor:pointer }
+.header { display:flex; justify-content:space-between; align-items:center }
+.muted { display:block; color:#666 }
+.create-form { display:flex; gap:8px; align-items:center; flex-wrap:wrap }
+.create-form input[type="date"]{padding:6px}
+.filters { margin-top:12px; display:flex; gap:12px; align-items:center }
+.tasks { margin-top:20px; display:flex; flex-direction:column; gap:10px }
+.task { border:1px solid #ddd; padding:12px; border-radius:6px; background:#fff }
+.task-header { display:flex; justify-content:space-between }
+.task .desc { margin-top:8px }
+.controls { margin-top:12px }
+button { padding:8px 10px }
+button.danger { background:#e74c3c; color:white; border:none }
+.error { color: #b00020 }
+.message { color: #006600 }
+.row { display:flex; gap:12px; align-items:center }
