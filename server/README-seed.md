@@ -36,5 +36,3 @@ Security notes
 
 Resetting data
 - Re-run the seed to reset demo data (it clears `users` and `tasks`).
-
-If you want the seed to be safer (no destructive delete), I can add a flag to the script to skip deletion and only insert when collections are empty. Let me know which behavior you prefer.
